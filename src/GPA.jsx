@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import InputComp from "./InputComponent"
-import Header from "./header"
-import Footer from "./footer"
+import Header from "./Header"
+import Footer from "./Footer"
 import Modal from "./Modal"
 import Quote from "./Quote"
 
@@ -117,7 +117,7 @@ function GpaCalc() {
         )}
       </div>
       {gpa > 0 && (
-        <div  className="btn-show-container">
+        <div className="btn-show-container">
           <button className="btn-show" onClick={() => setShowResults(true)}>
             Show GPA
           </button>
