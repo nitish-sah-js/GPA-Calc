@@ -10,6 +10,7 @@ body {
 }
 .title {
   text-align: center;
+  font-size: 6rem;
 }
 .landingPage {
   margin-top: 3rem;
